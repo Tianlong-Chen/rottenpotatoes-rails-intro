@@ -1,0 +1,5 @@
+# Repo
+https://github.com/TianlongChenTAMU/rottenpotatoes-rails-intro
+
+# App Website
+https://still-tor-61577.herokuapp.com/
