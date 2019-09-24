@@ -10,7 +10,7 @@ class MoviesController < ApplicationController
     # will render app/views/movies/show.<extension> by default
   end
 
-  def index
+  def index # For rate ranking purpose
     @all_ratings = Movie.ratings
     @sort = params[:sort]|| session[:sort]
     session[:ratings] = session[:ratings] || {'G' => '','PG' => '','PG13' => '','R' => ''}
