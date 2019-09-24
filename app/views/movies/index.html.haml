@@ -7,6 +7,7 @@
     = rating
     = check_box_tag "ratings[#{rating}]",'',('checked' if @t_param.include? rating)
   = submit_tag 'Refresh'
+
 %table#movies
   %thead
     %tr
